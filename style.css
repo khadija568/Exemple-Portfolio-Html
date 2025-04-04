@@ -1,0 +1,129 @@
+body{
+    background-color: #FFEDFA;
+    font-family: Helvetica neue, roboto; 
+}
+
+header{
+    background-color: #BE5985;
+    height: 12vh;
+}
+
+h2{
+    color: #af4875f5;
+}
+
+.AW{
+    background-color: #FFB8E0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.about{
+    padding-left: 45px;
+}
+
+.work p{
+    background-color: antiquewhite;
+    height: max-content;
+    margin-top: 15%;
+}
+
+.resume table, th, td{
+    border: solid 2px;
+    color: black;
+    border-collapse: collapse;
+} 
+
+.resume{
+    background-color: #FFB8E0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-top: 3%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.EX{
+    margin-top: 5%;
+}
+
+.SK{
+    margin-top: 5%;
+}
+
+.EM{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.WT{
+    margin-left: 3%;
+}
+
+.message{
+    margin-right: 18%;
+}
+
+.contact{
+    background-color: #FFB8E0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-top: 3%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.whatsapp{
+    display: inline-flex;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.telegram{
+    display: inline-flex;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    margin-top: 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-self: center;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #BE5985;
+    height: 12vh;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}

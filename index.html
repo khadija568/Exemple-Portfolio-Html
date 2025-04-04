@@ -5,90 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <!--Navbar-->
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Work</li>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <!--Section Home-->
-        <section>
-            <h1>Welcome to my Portfolio</h1>
-        </section>
-        <section>
-            <h2>About</h2>
-            <iframe width="420" height="315"
-        src="https://www.bing.com/videos/riverview/relatedvideo?&q=intrudaction+self&&mid=9219073E1E2F541F44199219073E1E2F541F4419&&FORM=VRDGAR">
-            </iframe>
-        </section>
-        <!--Section Work-->
-        <section>
-            <h2>Work</h2>
-            <p>Hi! My name is Teacher Patricia, <br>
-                 a Licensed Professional Teacher since 2018. <br>
-                 I've been teaching English ONLINE since 2019. <br>
-                I currently have students, who are STUDYING ENGLISH ONLINE <br>
-                from South Korea, China, Hong Kong, Japan, Vietnam, Poland and Philippines. </p>
-        </section>
-        <!--Section Resume-->
-        <section>
-            <h2>Resume</h2>
-            <!--Education/Experience-->
-            <h3>Experience and Education</h3>
-            <table>
-                <tr>
-                  <th>Years</th>
-                  <th>Experience</th>
-                  <th>Education</th>
-                </tr>
-                <tr>
-                  <td>2017</td>
-                  <td>Teaching kids</td>
-                  <td>Bachlor's degree in <br> Busines administration</td>
-                </tr>
-                <tr>
-                  <td>2019</td>
-                  <td>Customer Service</td>
-                  <td>Tesol and Tefl certification</td>
-                </tr>
-              </table>
-              <!--Skills-->
-              <h3>Soft Skills</h3>
-            <ol>
-                <li>Active listening</li>
-                <li>Effective communication</li>
-                <li>Teamwork</li>
-                <li>Problem-solving</li>
-                <li>Flexibility and adaptability</li>
-                <li>Emotionel inteligence</li>
-                <li>Ability to work under pressure</li>
-            </ol>
-        </section>
-        <!--Section Contact-->
-        <section>
-            <h2>Contact</h2>
-            <i class="fa-brands fa-whatsapp"></i>
-            <p>parguelles1212 / +639929145033</p>
-            <i class="fa-brands fa-telegram"></i>
-            <p>@Patricia_1997</p>
-            <label for="email">Patricia Espiritu@gmail.com</label>
-            <input type="email" name="email" id="">
-            <label for="message">Message</label>
-            <textarea name="message" rows="4" id=""></textarea>
-        </section>
-    </main>
-    <!--Footer-->
-    <footer>
-        <p>&copy; 2025 Patricia Espiritu. All Rights Reserved.</p>
-    </footer>
+        <main>
+            <!--Section Home-->
+            <section class="home">
+                <h1>Welcome to my Portfolio</h1>
+            </section>
+            <div class="AW">
+                <!--Section About-->
+                <section class="about">
+                    <h2>About</h2>
+                    <iframe width="420" height="315"
+                src="https://www.bing.com/videos/riverview/relatedvideo?&q=intrudaction+self&&mid=9219073E1E2F541F44199219073E1E2F541F4419&&FORM=VRDGAR">
+                    </iframe>
+                </section>
+                <!--Section Work-->
+                <section class="work">
+                    <h2>Work</h2>
+                    <p>Hi! My name is Espiritu Patricia, <br>
+                         a Licensed Professional Teacher since 2018. <br>
+                         I've been teaching English ONLINE since 2019. <br>
+                        I currently have students, who are STUDYING ENGLISH ONLINE <br>
+                        from South Korea, China, Hong Kong, Japan, Vietnam, Poland and Philippines. </p>
+                </section>
+            </div>
+            <!--Section Resume-->
+            <section class="resume">
+                <h2>Resume</h2>
+                <div class="EX">
+                    <!--Education/Experience-->
+                    <h3>Experience and Education</h3>
+                    <table>
+                        <tr>
+                          <th>Years</th>
+                          <th>Experience</th>
+                          <th>Education</th>
+                        </tr>
+                        <tr>
+                          <td>2017</td>
+                          <td>Teaching kids</td>
+                          <td>Bachlor's degree in <br> Busines administration</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td>Customer Service</td>
+                          <td>Tesol and Tefl certification</td>
+                        </tr>
+                      </table>
+                </div>
+                <div class="SK">
+                    <!--Skills-->
+                    <h3>Soft Skills</h3>
+                  <ol>
+                      <li>Active listening</li>
+                      <li>Effective communication</li>
+                      <li>Teamwork</li>
+                      <li>Problem-solving</li>
+                      <li>Flexibility and adaptability</li>
+                      <li>Emotionel inteligence</li>
+                      <li>Ability to work under pressure</li>
+                  </ol>
+                </div>
+            </section>
+            <!--Section Contact-->
+            <section class="contact">
+                <h2>Contact</h2>
+                <div class="WT">
+                    <div class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>parguelles1212 / +639929145033</p>
+                    </div>
+                    <div class="telegram">
+                        <i class="fa-brands fa-telegram"></i>
+                        <p>@Patricia_1997</p>
+                    </div>
+                </div>
+                <div class="EM">
+                    <div class="email">
+                        <label for="email">Patricia Espiritu@gmail.com</label>
+                        <input type="email" name="email" id="">
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="4" id=""></textarea>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2025 Patricia Espiritu. All Rights Reserved.</p>
+        </footer>
 </body>
 </html>
